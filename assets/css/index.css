@@ -76,6 +76,9 @@ nav.navbar {
   height: 46px;
   margin-right: 8px;
 }
+.navbar-toggler-icon{
+  background-image: url("/assets/img/burger-menu.svg");
+}
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("/assets/img/burger-menu.svg");
