@@ -2,13 +2,12 @@
   .section-1 .main-titel {
     font-size: 40px;
   }
-  .section-2 .main-titel{
+  .section-2 .main-titel {
     font-size: 32px;
   }
   .section-3 .main-titel {
-  font-size: 32px;
-  
-}
+    font-size: 32px;
+  }
 }
 @media (max-width: 991.98px) {
   .section-2 .d-flex {
@@ -22,31 +21,27 @@
     margin-bottom: 1rem;
   }
   .section-3 .main-titel {
-  font-size: 32px;
-}
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 768px) {
- .form-check-label {
+  .form-check-label {
     font-size: 16px;
-   
-}
-.location{
-  padding-left: 0px;
-  padding-right: 0px;
-}
+  }
+  .location {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
- .footer {
+  .footer {
     text-align: center;
   }
   .footer .row > div {
     text-align: center;
   }
-  .max-border{
-   margin-bottom: 32px;
+  .max-border {
+    margin-bottom: 32px;
     height: 2.26px;
-   
   }
 }
-
-

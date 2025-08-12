@@ -27,14 +27,12 @@
   font-display: swap;
 }
 
-
-
 body {
   background-color: #000;
 }
 html {
-        scroll-behavior: smooth;
-      }
+  scroll-behavior: smooth;
+}
 
 /* Navbar */
 .navbar {
@@ -47,14 +45,12 @@ html {
   letter-spacing: -1.1%;
   font-size: 16px;
   font-family: "Inter", sans-serif;
-
 }
 nav.navbar {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 9999;
-  
 }
 
 .navbar-nav .nav-link.active {
@@ -108,7 +104,7 @@ nav.navbar {
   font-size: 20.57px;
   font-weight: 400;
   line-height: 150%;
-  color: #B7B7B7;
+  color: #b7b7b7;
   letter-spacing: -1.1%;
 }
 
@@ -192,7 +188,7 @@ nav.navbar {
   font-size: 20.57px;
   font-weight: 500;
   line-height: 150%;
-  color: #EAEAEA;
+  color: #eaeaea;
   letter-spacing: -1.1%;
 }
 
