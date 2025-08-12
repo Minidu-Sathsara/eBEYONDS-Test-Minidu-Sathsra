@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .section-1 .main-titel {
+    font-size: 40px;
+  }
+  .section-2 .main-titel{
+    font-size: 32px;
+  }
+  .section-3 .main-titel {
+  font-size: 32px;
+  
+}
+}
+@media (max-width: 991.98px) {
+  .section-2 .d-flex {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .section-2 .custom-input-group {
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .section-3 .main-titel {
+  font-size: 32px;
+}
+}

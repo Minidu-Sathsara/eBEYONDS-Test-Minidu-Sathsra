@@ -1,0 +1,322 @@
+/* font */
+
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("/assets/font/DIN-BoldAlternate.woff2") format("woff2"),
+    url("/assets/font/DIN-BoldAlternate.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("/assets/font/DIN-MediumAlternate.woff2") format("woff2"),
+    url("/assets/font/DIN-MediumAlternate.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("/assets/font/DIN-RegularAlternate.woff2") format("woff2"),
+    url("/assets/font/DIN-RegularAlternate.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body {
+  background-color: #000;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0f0f0f;
+}
+.navbar .nav-link {
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: -1.1%;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+.navbar-nav .nav-link.active {
+  position: relative;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 24px;
+  margin-right: 8px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("/assets/img/hamburger-menu.svg");
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url("/assets/img/banner.png") center/cover no-repeat;
+}
+
+/* section-1*/
+.section-1 {
+  background-color: #0f0f0f;
+}
+.section-1 .main-titel {
+  font-family: "DIN Alternate", Arial, sans-serif;
+  font-size: 54.86px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.section-1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20.57px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #b7b7b7;
+  letter-spacing: -1.1%;
+}
+
+/* section-2*/
+.section-2 {
+  background-color: #1d1d1d;
+}
+.section-2 .main-titel {
+  font-family: "DIN Alternate", Arial, sans-serif;
+  font-size: 36.57px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.custom-input-group .input-group-text,
+.custom-input-group .form-control {
+  border: none;
+  box-shadow: none;
+}
+
+.custom-input-group {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.custom-input-group .form-control::placeholder {
+  color: #a3a3a3;
+  font-family: "Open Sans", sans-serif;
+}
+.max-border {
+  color: #fff;
+  opacity: 1;
+}
+
+.btn-close-custom {
+  background-color: #1d1d1d;
+  width: 57.14px;
+  height: 57.14px;
+  border-radius: 0px;
+}
+.custom-card {
+  background-color: #000;
+}
+.custom-card .card-body {
+  background-color: #3c3c3c;
+}
+.custom-card .card-title {
+  font-family: "DIN Alternate", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.custom-card .card-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18.29px;
+  font-weight: 500;
+  color: #eaeaea;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+
+.section-2 .custom-card {
+  max-height: 770px;
+  overflow: hidden;
+}
+
+/* Section-3 */
+.section-3 {
+  background-color: #000;
+}
+.section-3 .main-titel {
+  font-family: "DIN Alternate", Arial, sans-serif;
+  font-size: 36.57px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.section-3 .sub-titel {
+  font-family: "Inter", sans-serif;
+  font-size: 20.57px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #b7b7b7;
+  letter-spacing: -1.1%;
+}
+
+.contact-section .form-control {
+  background-color: #3c3c3c;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+label.form-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18.29px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+  color: #b7b7b7;
+}
+.required-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18.29px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+  color: #b7b7b7;
+}
+.form-check-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20.57px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+  color: #b7b7b7;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0;
+}
+.form-check-input {
+  background-color: #000;
+  margin-top: 0.4em;
+}
+
+input.form-control.name,
+input.form-control.email,
+input.form-control.telephone,
+textarea.form-control.message {
+  min-height: 46px;
+  width: 100%;
+}
+
+textarea.form-control.message {
+  max-height: 115px;
+}
+
+.contact-section .form-control::placeholder {
+  color: #aaa;
+}
+.submit-btn {
+  width: 100%;
+  max-width: 242px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: #cc9601;
+  color: #fff;
+}
+
+button.submit-btn.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #cc9601;
+  border-color: var(--bs-btn-hover-border-color);
+}
+
+/* footer */
+.footer {
+  background-color: #1d1d1d;
+  padding: 30px 0 10px;
+}
+.footer .main-titel {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18.29px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.footer .sub-titel {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ccc;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+span.follow-us {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18.29px;
+  font-weight: 400;
+  color: #ccc;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b7b7b7;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.photos-credit {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b7b7b7;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+}
+.footer a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #b7b7b7;
+}
+.footer a:hover {
+  color: #fff;
+}
+.social-icons a {
+  font-size: 1.3rem;
+  margin-left: 15px;
+}
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-size: 0.9rem;
+}

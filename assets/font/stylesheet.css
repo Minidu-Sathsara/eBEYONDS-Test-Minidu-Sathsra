@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-MediumAlternate.woff2') format('woff2'),
+        url('DIN-MediumAlternate.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

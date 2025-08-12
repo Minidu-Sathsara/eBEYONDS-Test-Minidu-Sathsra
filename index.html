@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logopium Cinema</title>
+
+    <!-- bootsrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/index-sm.css" />
+  </head>
+  <body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg" data-aos="fade-up">
+  <div class="container">
+   
+    <a class="navbar-brand" href="#">
+      <img src="/assets/img/Logo.png" alt="Logo" />
+    </a>
+
+    <button
+      class="navbar-toggler text-white"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+   
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Seeding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Movie Library</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="#">Location & Contact</a>
+          
+          <button
+            class="btn  d-none d-lg-block"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#extraMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" data-aos="fade-up"></section>
+
+<!-- Section-1 -->
+<section class="section-1 text-light py-5" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="main-titel ">MOVIE LIBRARY</div>
+            <p class="sub-titel">
+              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Section-2 -->
+<section class="section-2 py-5" data-aos="fade-up">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-md-5">
+          <div class="main-titel" data-aos="fade-up" data-aos-delay="100">
+            Collect your favourites
+          </div>
+          <div
+            class="input-group w-25 custom-input-group"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <span class="input-group-text bg-transparent text-white">
+              <i class="bi bi-search"></i>
+            </span>
+            <input
+              type="text"
+              class="form-control bg-transparent text-white"
+              placeholder="Search title and add to grid"
+            />
+          </div>
+        </div>
+        <hr class="max-border" data-aos="fade-up" data-aos-delay="100" />
+
+        <div class="row g-4 pt-md-5">
+          <!-- Card 1 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="custom-card card border-0 text-white position-relative">
+              <img
+                src="/assets/img/batman.png"
+                class="card-img-top"
+                alt="Batman Returns"
+              />
+              <button
+                class="position-absolute top-0 end-0 m-2 btn-close-custom"
+                aria-label="Close"
+              >
+                <i class="bi bi-x-lg text-white"></i>
+              </button>
+              <div class="card-body">
+                <h5 class="card-title">Batman Returns</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="custom-card card border-0 text-white position-relative">
+              <img
+                src="/assets/img/wild.png"
+                class="card-img-top"
+                alt="Wild Wild West"
+              />
+              <button
+                class="position-absolute top-0 end-0 m-2 btn-close-custom"
+                aria-label="Close"
+              >
+                <i class="bi bi-x-lg text-white"></i>
+              </button>
+              <div class="card-body">
+                <h5 class="card-title">Wild Wild West</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div
+              class="custom-card card bg-dark border-0 text-white position-relative"
+            >
+              <img
+                src="/assets/img/spider-man.png"
+                class="card-img-top"
+                alt="The Amazing Spiderman"
+              />
+              <button
+                class="position-absolute top-0 end-0 m-2 btn-close-custom"
+                aria-label="Close"
+              >
+                <i class="bi bi-x-lg text-white"></i>
+              </button>
+              <div class="card-body">
+                <h5 class="card-title">The Amazing Spiderman</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section
+      class="section-3 contact-section py-5 text-white"
+      data-aos="fade-up"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Form -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-5">
+              <div class="main-titel">How to reach us</div>
+              <p class="sub-titel">Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <form id="contactForm" novalidate>
+              <div class="row py-2">
+                <div
+                  class="col-md-6 mb-3"
+                  data-aos="fade-up"
+                  data-aos-delay="150"
+                >
+                  <label class="form-label">First Name *</label>
+                  <input
+                    type="text"
+                    class="form-control name"
+                    name="firstName"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please enter your first name.
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 mb-3"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <label class="form-label">Last Name *</label>
+                  <input
+                    type="text"
+                    class="form-control name"
+                    name="lastName"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please enter your last name.
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3" data-aos="fade-up" data-aos-delay="250">
+                <label class="form-label">Email *</label>
+                <input
+                  type="email"
+                  class="form-control email"
+                  name="email"
+                  required
+                />
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+
+              <div class="mb-3" data-aos="fade-up" data-aos-delay="300">
+                <label class="form-label">Telephone *</label>
+                <input
+                  type="tel"
+                  class="form-control telephone"
+                  name="telephone"
+                  pattern="[0-9]{10}"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid 10-digit telephone number.
+                </div>
+              </div>
+
+              <div class="mb-3" data-aos="fade-up" data-aos-delay="350">
+                <label class="form-label">Message</label>
+                <textarea
+                  class="form-control message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+                <div class="invalid-feedback">Please enter your message.</div>
+              </div>
+
+              <p class="required-text" data-aos="fade-up" data-aos-delay="400">
+                *required fields
+              </p>
+
+              <div
+                class="form-check mb-3"
+                data-aos="fade-up"
+                data-aos-delay="450"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="terms"
+                  required
+                />
+                <label class="form-check-label ps-md-2" for="terms">
+                  I agree to the
+                  <a href="#" class="text-white text-decoration-underline"
+                    >Terms & Conditions</a
+                  >
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+
+              <div
+                class="d-flex justify-content-end"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <button type="submit" class="submit-btn btn px-4">
+                  SUBMIT
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Map -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.294061786386!2d-3.777218684606877!3d40.326505479373926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42208f0f0f2b7f%3A0x85e67e72c7c3c2f0!2sValdepelayo!5e0!3m2!1sen!2ses!4v1691500000000!5m2!1sen!2ses"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-up">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <div class="main-titel">IT Group</div>
+            <p class="sub-titel mb-0">C. Salvador de Madariaga, 1</p>
+            <p class="sub-titel mb-0">28027 Madrid</p>
+            <p class="sub-titel mb-0">Spain</p>
+          </div>
+
+          <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <span class="follow-us me-2">Follow us on</span>
+            <span class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </span>
+          </div>
+        </div>
+
+        <div
+          class="footer-bottom mt-3 d-flex flex-column flex-md-row justify-content-between"
+        >
+          <div class="copyright">
+            Copyright © 2022 IT Hote Is. All rights reserved.
+          </div>
+          <div class="photos-credit">
+            Photos by Felix Mooneeram &amp;
+            <a href="#" class="text-underline">Serge Kutuzov</a> on
+            <a href="#" class="text-underline">Unsplash</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
