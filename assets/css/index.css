@@ -46,6 +46,14 @@ body {
   font-family: "Inter", sans-serif;
 
 }
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  
+}
 .navbar-nav .nav-link.active {
   position: relative;
   font-weight: 500;
