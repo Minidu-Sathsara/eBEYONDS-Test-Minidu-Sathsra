@@ -16,3 +16,16 @@
       }, false);
     });
   })();
+
+   document.addEventListener("DOMContentLoaded", function () {
+    const toggler = document.querySelector(".custom-toggler");
+    const navbarCollapse = document.getElementById("navbarNav");
+
+    navbarCollapse.addEventListener("show.bs.collapse", function () {
+      toggler.classList.add("active");
+    });
+
+    navbarCollapse.addEventListener("hide.bs.collapse", function () {
+      toggler.classList.remove("active");
+    });
+  });

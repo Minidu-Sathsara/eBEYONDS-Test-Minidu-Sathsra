@@ -77,8 +77,22 @@ nav.navbar {
   margin-right: 8px;
 }
 
-.navbar-toggler-icon {
+.custom-toggler .navbar-toggler-icon {
   background-image: url("/assets/img/burger-menu.svg");
+}
+
+
+.custom-toggler.active .navbar-toggler-icon {
+  background-image: url("/assets/img/close-x.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Hero Section */
