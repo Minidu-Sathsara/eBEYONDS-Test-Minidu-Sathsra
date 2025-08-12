@@ -93,6 +93,7 @@ nav.navbar {
 .navbar-toggler:active {
   outline: none !important;
   box-shadow: none !important;
+  border: 0;
 }
 
 /* Hero Section */
