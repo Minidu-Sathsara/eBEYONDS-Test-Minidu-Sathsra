@@ -39,7 +39,7 @@ html {
 .cursor-dot {
   width: 7px;
   height: 7px;
-  background-color: #fdb713;
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
@@ -52,7 +52,7 @@ html {
 .cursor-outline {
   width: 30px;
   height: 30px;
-  border: 2px solid hsla(56, 97%, 48%, 0.959);
+  border: 2px solid hsla(0, 0%, 100%, 0.959);
   position: fixed;
   top: 0;
   left: 0;
