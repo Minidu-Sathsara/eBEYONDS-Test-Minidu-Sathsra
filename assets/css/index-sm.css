@@ -44,4 +44,12 @@
     margin-bottom: 32px;
     height: 2.26px;
   }
+
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+  }
+   body {
+    cursor: auto; 
+  }
 }
