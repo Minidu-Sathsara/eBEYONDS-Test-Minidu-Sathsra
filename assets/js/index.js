@@ -29,3 +29,34 @@
       toggler.classList.remove("active");
     });
   });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cursorDot = document.querySelector(".cursor-dot");
+  const cursorOutline = document.querySelector(".cursor-outline");
+
+  let outlineX = 0;
+  let outlineY = 0;
+  let targetX = 0;
+  let targetY = 0;
+
+  window.addEventListener("mousemove", (e) => {
+    targetX = e.clientX;
+    targetY = e.clientY;
+
+    cursorDot.style.left = `${targetX}px`;
+    cursorDot.style.top = `${targetY}px`;
+  });
+
+  function animateOutline() {
+    outlineX += (targetX - outlineX) * 0.15; // smooth delay
+    outlineY += (targetY - outlineY) * 0.15;
+
+    cursorOutline.style.left = `${outlineX}px`;
+    cursorOutline.style.top = `${outlineY}px`;
+
+    requestAnimationFrame(animateOutline);
+  }
+
+  animateOutline();
+});
