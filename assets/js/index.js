@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function animateOutline() {
-    outlineX += (targetX - outlineX) * 0.15; // smooth delay
+    outlineX += (targetX - outlineX) * 0.15;
     outlineY += (targetY - outlineY) * 0.15;
 
     cursorOutline.style.left = `${outlineX}px`;
